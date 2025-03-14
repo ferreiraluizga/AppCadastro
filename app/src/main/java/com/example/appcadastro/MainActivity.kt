@@ -101,7 +101,7 @@ fun HomeScreen() {
             Button(
                 onClick = { }
             ) {
-                Text(text = "Enviar")
+                Text(text = "Enviar Dados")
             }
         }
     }
@@ -128,7 +128,7 @@ fun Avatar() {
                 .fillMaxWidth()
         ) {
             Image(
-                painter = painterResource(R.drawable.ic_launcher_background),
+                painter = painterResource(R.drawable.avatar_image),
                 contentDescription = "avatar image",
                 Modifier
                     .offset(y = 50.dp)
@@ -139,7 +139,7 @@ fun Avatar() {
         }
         Spacer(Modifier.height(65.dp))
         Text(
-            text = "Cadastro",
+            text = "Cadastro de Alunos",
             textAlign = TextAlign.Center,
             fontSize = 32.sp,
             fontWeight = FontWeight.SemiBold
